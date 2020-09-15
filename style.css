@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    background: url(https://images.freeimages.com/images/large-previews/833/another-day-at-the-cottage-1057638.jpg);
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+.nav-logo h3{
+    width: 100px;
+    color: rgb(54, 168, 60);
+    float: left;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: rgb(179, 52, 79);
+}
+.nav-links ul li::after{
+    content:"" ;
+    width:0;
+    height: 2px;
+    background:tomato;
+    display:block;
+    margin:auto;
+    transition:0.3s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.btn{
+    padding:10px 20px;
+    background:yellow;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+}
+#sign{
+    float:right;
+}
+.banner{
+    margin:80px 130px;
+    color:#000;
+    margin:80px 130px;
+}
+.banner h1{
+    font-size:64px;
+    margin-bottom:50px;
+    color: darkblue;
+}
+.banner h1 span{
+    color: tomato;
+}
+.vertical-bar{
+    height: 100%;
+    background:yellowgreen;
+    top:0;
+    left:0;
+    position:absolute;
+}
+.search-icon{
+    height:60%;
+    width:80px;
+}
+.search-icon .fa{
+    margin: 45px 23px;
+    display:block;
+    color:#fff;
+    font-size:30px;
+    cursor: pointer;
+}
